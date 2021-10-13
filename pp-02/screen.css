@@ -15,7 +15,7 @@ html {
 }
 
 h3, h4, footer, ul, figcaption, p {
-  padding-bottom:20px; /* 20px/16= 1.25*/
+  padding-bottom:20px; /* 20px/16= 1.25em*/
 }
 
 h1 {
@@ -26,11 +26,11 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 20px; /* 20px/16= 1.25em*/
 }
 
 footer{
-  font-size:11px; /* 11.52px/16= 0.72*/
+  font-size:11px; /* 11.52px/16= 0.72em*/
 }
 
 .italic {
