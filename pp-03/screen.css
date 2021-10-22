@@ -28,7 +28,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+display: flex;
+flex-direction: column-reverse;
 }
 
 #three,
@@ -36,6 +37,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #one {
 
 }
+
 
 @media screen and (min-width: 600px) {
 
