@@ -40,8 +40,24 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 @media screen and (min-width: 600px) {
-
+  #content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
+
+  #two,
+  #one {
+    height: 50vw;
+    width: 50vw;
+  }
+
+  #three {
+    order: 2;
+    width: 100vw;
+    height: 100vw;
+  }
 
 @media screen and (min-width: 800px) {
 
