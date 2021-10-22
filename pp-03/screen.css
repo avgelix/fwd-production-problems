@@ -40,12 +40,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 @media screen and (min-width: 600px) {
-  #content {
+    #content {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     flex-wrap: wrap;
-}
+  }
 
   #two,
   #one {
@@ -59,6 +59,24 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     height: 100vw;
   }
 
+}
+
 @media screen and (min-width: 800px) {
+  #content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+  }
+
+    #one, #two, #three {
+    height: 100vw;
+    width: 100vw;
+    align-content: space-between;
+  }
+
+  #three {
+    order: -1;
+  }
 
 }
