@@ -40,7 +40,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 @media screen and (min-width: 600px) {
-    #content {
+  #content {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -69,7 +69,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     flex-wrap: wrap-reverse;
   }
 
-    #one, #two, #three {
+  #one, #two, #three {
     height: 100vw;
     width: 100vw;
     align-content: space-between;
