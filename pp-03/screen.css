@@ -41,7 +41,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 600px) {
   #content {
-    display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -62,21 +61,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 800px) {
-  #content {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    flex-wrap: wrap-reverse;
-  }
-
   #one, #two, #three {
-    height: 100vw;
-    width: 100vw;
-    align-content: space-between;
+    width: 33vw;
+    height: 33vw;
   }
-
-  #three {
-    order: -1;
-  }
-
 }
