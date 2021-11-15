@@ -4,11 +4,14 @@
   `x` as the variable inside the function, however.
 */
 
-x = 5;
+{
+  x = 5;
 
-function double(num) {
-  x = num * 2;
-  return x;
+  function double(num) {
+    x = num * 2;
+    return x;
+  }
+
 }
 
 double(6);
