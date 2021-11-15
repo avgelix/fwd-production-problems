@@ -3,21 +3,17 @@
   call outputs the correct value (5) for x. You must still use
   `x` as the variable inside the function, however.
 */
+'use strict';
 
-{
- function double (num) {
-      x = num * 2;
-      return x;
+  function double(num) {
+    x = num * 2;
+    return x;
   }
-}
-/*function double(num) {
-  x = num * 2;
-  return x;
-}*/
 
-double(dog);
+double(10);
 
-  x = 5;
+var x = 5
+
 console.log('The value of x is', x, '-- it should be 5.');
 
 
